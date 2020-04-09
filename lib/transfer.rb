@@ -8,15 +8,15 @@ class Transfer
   end
   
   def sender
-    
+    @sender
   end
   
   def receiver
-    
+    @receiver
   end
   
   def transfer
-    
+    @transfer
   end
   
   
