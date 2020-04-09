@@ -27,6 +27,8 @@ end
 def valid?
   if @balance > 0
     true
+    elsif @balance =< 0
+    false
     
   end
 end
