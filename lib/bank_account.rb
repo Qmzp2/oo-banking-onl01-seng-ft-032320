@@ -16,7 +16,7 @@ def status
 end
 
 def deposit(amount)
-  @status += amount
+  @balance += amount
 end
 
   
