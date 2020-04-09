@@ -13,5 +13,9 @@ def self.status
   @status
 end
 
+def status
+  @status
+end
+
 
 end
