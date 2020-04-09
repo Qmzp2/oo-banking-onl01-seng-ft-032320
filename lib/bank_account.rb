@@ -29,7 +29,6 @@ def valid?
     true
     elsif @balance <= 0
     false
-    
   end
 end
 
