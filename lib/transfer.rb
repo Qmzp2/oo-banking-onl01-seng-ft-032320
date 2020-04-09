@@ -1,7 +1,7 @@
 class Transfer
   attr_accessor :balance
   
-  def initialize(amount, from, to)
+  def initialize(transfer, sender, receiver)
   end
   
 end
