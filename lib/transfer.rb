@@ -6,14 +6,15 @@ class Transfer
     @receiver = receiver
     @transfer = transfer
     @status = "pending"
-    @transfer_amount = transfer
+   
   end
  
  def status
    @status
  end
  
- 
+ def amount
+   @transfer
   
   
   
