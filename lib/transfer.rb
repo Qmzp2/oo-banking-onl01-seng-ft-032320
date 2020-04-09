@@ -15,7 +15,7 @@ class Transfer
  
  def amount
    @transfer
-  
+  end
   
   
   
