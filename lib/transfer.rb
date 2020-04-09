@@ -17,6 +17,11 @@ class Transfer
    @transfer
   end
   
+  def valid?
+    sender.valid?
+  end
+  
+  
   
   
   
