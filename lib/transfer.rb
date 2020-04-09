@@ -34,7 +34,8 @@ class Transfer
 end
 
   def reverse_transfer
-    
+    receiver.balance -= transfer
+    sender.balance += transfer
   end
   
   
