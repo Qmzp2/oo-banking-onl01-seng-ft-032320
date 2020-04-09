@@ -9,9 +9,6 @@ def initialize(name)
   @status = "open"
 end
 
-def self.status
-  @status
-end
 
 
 end
