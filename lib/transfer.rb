@@ -5,6 +5,7 @@ class Transfer
     @sender = sender
     @receiver = receiver
     @transfer = transfer
+    @status = "pending"
   end
   
   def sender
