@@ -30,6 +30,7 @@ def valid?
     true
   else
     @status = "closed"
+    false
   end
 end
 
