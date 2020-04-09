@@ -26,6 +26,7 @@ end
 
 def valid?
   if @balance > 0
+    true
     
   end
 end
