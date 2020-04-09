@@ -32,6 +32,9 @@ def close_account
   @status = "closed"
 end
 
+def self.balence
+  @balance
+end
 
 
 
