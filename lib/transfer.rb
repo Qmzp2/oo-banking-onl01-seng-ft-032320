@@ -9,6 +9,11 @@ class Transfer
     @transfer_amount = transfer
   end
  
+ def status
+   @status
+ end
+ 
+ 
   
   
   
