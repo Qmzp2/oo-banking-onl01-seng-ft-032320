@@ -15,5 +15,11 @@ def status
   @status
 end
 
+def deposit(amount)
+  @status += amount
+end
+
+  
+
 
 end
