@@ -7,21 +7,7 @@ class Transfer
     @transfer = transfer
     @status = "pending"
   end
-  
-  def sender
-    @sender
-  end
-  
-  def receiver
-    @receiver
-  end
-  
-  def transfer
-    @transfer
-  end
-  
-  
-  
+ 
   
   
   
