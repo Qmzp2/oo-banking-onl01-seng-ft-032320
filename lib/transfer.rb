@@ -22,7 +22,12 @@ class Transfer
   end
   
   def execute_transaction
-    if valid? && sender.
+    if valid? && sender.balance >= transfer
+    sender.balance -= transfer
+    receiver.balence += transfer
+  end
+end
+
   
   
   
